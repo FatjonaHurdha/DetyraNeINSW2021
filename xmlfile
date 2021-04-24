@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="XSLTFile.xsl"?>
+<Tabela>
+  <Produkti>
+    <EmriProdukti>Kanelle Pluhur</EmriProdukti>
+    <Kategoria>Vajra</Kategoria>
+    <Cmimi>500</Cmimi>
+  </Produkti>
+  <Produkti>
+    <EmriProdukti>Xhenxhefil Pluhur</EmriProdukti>
+    <Kategoria>Cajra</Kategoria>
+    <Cmimi>500</Cmimi>
+  </Produkti>
+  <Produkti>
+    <EmriProdukti>Shebe Pluhur</EmriProdukti>
+    <Kategoria>Cajra</Kategoria>
+    <Cmimi>500</Cmimi>
+  </Produkti>
+  <Produkti>
+    <EmriProdukti>Nektar Hurme </EmriProdukti>
+    <Kategoria>Mjalta</Kategoria>
+    <Cmimi>500</Cmimi>
+  </Produkti>
+  <Produkti>
+    <EmriProdukti>Sider Pluhur</EmriProdukti>
+    <Kategoria>Cajra</Kategoria>
+    <Cmimi>500</Cmimi>
+  </Produkti>
+  <Produkti>
+    <EmriProdukti>Nektar Hurme </EmriProdukti>
+    <Kategoria>Mjalta</Kategoria>
+    <Cmimi>500</Cmimi>
+  </Produkti>
+  <Produkti>
+    <EmriProdukti>LeoCrema me vaj Argani</EmriProdukti>
+    <Kategoria>Vajra</Kategoria>
+    <Cmimi>500</Cmimi>
+  </Produkti>
+  <Produkti>
+    <EmriProdukti>Lacinia,sapun me vaj Dellinje</EmriProdukti>
+    <Kategoria>Vajra</Kategoria>
+    <Cmimi>500</Cmimi>
+  </Produkti>
+  <Produkti>
+    <EmriProdukti>Lacinia,nga vaj Kajsie</EmriProdukti>
+    <Kategoria>Vajra</Kategoria>
+    <Cmimi>500</Cmimi>
+  </Produkti>
+  <Produkti>
+    <EmriProdukti>Caj Per Dobesim</EmriProdukti>
+    <Kategoria>Cajra</Kategoria>
+    <Cmimi>500</Cmimi>
+  </Produkti>
+  <Produkti>
+    <EmriProdukti>Mjalt me Probleme Stomaku</EmriProdukti>
+    <Kategoria>Mjalta</Kategoria>
+    <Cmimi>500</Cmimi>
+  </Produkti>
+  <Produkti>
+    <EmriProdukti>MJALT PER PROBLEME ME STOMAKUN LUKTH </EmriProdukti>
+    <Kategoria>Vajra</Kategoria>
+    <Cmimi>4000</Cmimi>
+  </Produkti>
+  <Produkti>
+    <EmriProdukti>Vaj Fares se Zeze</EmriProdukti>
+    <Kategoria>Vajra</Kategoria>
+    <Cmimi>500</Cmimi>
+  </Produkti>
+  <Produkti>
+    <EmriProdukti>Serum Vitamina Pastil</EmriProdukti>
+    <Kategoria>Serum</Kategoria>
+    <Cmimi>500</Cmimi>
+  </Produkti>
+  <Produkti>
+    <EmriProdukti>Serum Me Grimca Ari</EmriProdukti>
+    <Kategoria>Vajra</Kategoria>
+    <Cmimi>500</Cmimi>
+  </Produkti>
+  <Produkti>
+    <EmriProdukti>Herbal Care GinSeng</EmriProdukti>
+    <Kategoria>Balsam</Kategoria>
+    <Cmimi>500</Cmimi>
+  </Produkti>
+  <Produkti>
+    <EmriProdukti>Herbal Care HorseTail</EmriProdukti>
+    <Kategoria>Balsam</Kategoria>
+    <Cmimi>500</Cmimi>
+  </Produkti>
+  <Produkti>
+    <EmriProdukti>Krem Me Ekstakt Shege</EmriProdukti>
+    <Kategoria>Krem</Kategoria>
+    <Cmimi>500</Cmimi>
+  </Produkti>
+  <Produkti>
+    <EmriProdukti>Krem me Kolagjen</EmriProdukti>
+    <Kategoria>Krem</Kategoria>
+    <Cmimi>500</Cmimi>
+  </Produkti>
+  <Produkti>
+    <EmriProdukti>Paste me Qymyre Druri</EmriProdukti>
+    <Kategoria>Dhembe</Kategoria>
+    <Cmimi>500</Cmimi>
+  </Produkti>
+</Tabela>
