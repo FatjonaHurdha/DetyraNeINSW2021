@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body style="background-color:aquamarine ">
+    <div align="center">
+    <p>
+        Shihni listen e produkteve:
+        <button id="liste" onclick="loadDoc()">Kliko ketu!</button>
+    </p> <br>
+    <table id="demo"></table>
+
+    <script>function loadDoc() {
+
+                var xhttp = new XMLHttpRequest();
+                xhttp.onreadystatechange = function () {
+                    if (this.readyState == 4 && this.status == 200) {
+                        myFunction(this);
+                    }
+                };
+                xhttp.open("GET", "file.xml", true);
+                xhttp.send();
+            }
+            function myFunction(xml) {
+                var i;
+                var xmlDoc = xml.responseXML;
+                var table = "<tr><th>Emri Produktit</th><th>Kategoria</th><th>Cmimi</th></tr>";
+                var x = xmlDoc.getElementsByTagName("Produkti");
+                for (i = 0; i < x.length; i++) {
+                    table += "<tr><td>" +
+                        x[i].getElementsByTagName("EmriProdukti")[0].childNodes[0].nodeValue +
+                        "</td><td>" +
+                        x[i].getElementsByTagName("Kategoria")[0].childNodes[0].nodeValue +
+                        "</td><td>" +
+                        x[i].getElementsByTagName("Cmimi")[0].childNodes[0].nodeValue +
+                        "</td></tr>";
+                }
+                document.getElementById("demo").innerHTML = table;
+             }
+        </script>
+    </div>
+</body>
+</html>
