@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+    xmlns:msxsl="urn:schemas-microsoft-com:xslt" exclude-result-prefixes="msxsl">
+  <xsl:output method="xml" indent="yes"/>
+
+  <xsl:template match="@* | node()">
+    <xsl:copy>
+      <xsl:apply-templates select="@* | node()"/>
+      <h2>Produktet</h2>
+      <table border="1">
+        <tr bgcolor="#9acd32" >
+          <th>Emri Produktit</th>
+          <th>Kategoria</th>
+          <th>Cmimi</th>
+        </tr>
+        <xsl:for-each select="Tabela/Produkti">
+          <tr>
+            <td>
+              <xsl:value-of select="Kategoria"/>
+            </td>
+            <td>
+              <xsl:value-of select="EmriProdukti"/>
+            </td>
+            <td>
+              <xsl:value-of select="Cmimi"/>
+            </td>
+          </tr>
+        </xsl:for-each>
+      </table>
+    </xsl:copy>
+  </xsl:template>
+</xsl:stylesheet>
